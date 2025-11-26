@@ -1,0 +1,33 @@
+build/
+# Ignorar diretórios e arquivos do sistema
+Ambiente de Impressão/
+Ambiente de Rede/
+Configurações Locais/
+Cookies/
+Dados de Aplicativos/
+Menu Iniciar/
+Meus Documentos/
+Modelos/
+Recent/
+SendTo/
+
+# Ignorar arquivos temporários do sistema
+*.bak
+*.swp
+*.log
+
+# Ignorar diretórios do sistema e do usuário
+AppData/
+OneDrive/
+Documents/
+Downloads/
+Pictures/
+PycharmProjects/
+Saved Games/
+Searches/
+Videos/
+
+# Ignorar arquivos de configuração do Windows
+NTUSER.DAT*
+*.ini
+*.log
