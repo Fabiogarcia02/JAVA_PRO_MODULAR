@@ -30,13 +30,17 @@ function validarNome(tamanho:number){
 class Jogo{
     @validarNome(5)
     nome:string;
+        @validarNome(10)
+    titulo: string;
+
     
 
-      constructor(nome:string){
-        this.nome= nome
+      constructor(nome:string, titulo:string){
+        this.nome= nome;
+        this.titulo = titulo;
       }
 }
- const jogo1 = new Jogo("Dota 2");
+ const jogo1 = new Jogo("Dota 2", "Jogo de moba");
 
  console.log(jogo1.nome)
  
